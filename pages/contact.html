@@ -35,13 +35,15 @@
     </div>
 
     <div id="contact_input" class="contact_input">
-            <li><label>First Name</label></li>
-            <li><input></input></li>
-            <li><label>Email</label></li>
-            <li><input></input></li>
-            <li><label>Message</label></li>
-            <li><input style="height:200px"></input></li>
-            <li><button style="font-family: 'Roboto', sans-serif;">Send Message</style></button></li>
+        <form action="https://formsubmit.co/rory.personal.website@gmail.com" method="POST">
+            <li><label>Your First Name</label></li>
+            <li><input type="text" name="name" required></input></li>
+            <li><label> Your Email</label></li>
+            <li><input type="email" name="email" required></input></li>
+            <li><label>Your Message</label></li>
+            <li><input type="message" name="message" required style="height: 200px;"></input></li>
+            <li><button type="submit" style="font-family: 'Roboto', sans-serif;">Send Message</button></li>
+        </form>
     </div>
 </body>
 </html>
