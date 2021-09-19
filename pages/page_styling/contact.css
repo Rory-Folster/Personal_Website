@@ -5,12 +5,19 @@
     text-decoration: none;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-image: linear-gradient(to right, #dce8e4, #AEAEAE );
+    background-color: (lin);
     padding-bottom: 110px;
 }
 
 .contact_text h2 {
-    font-size: 31px;
+    font-size: 30px;
     padding-top: 35px;
     padding-bottom: 10px;
     vertical-align: center;
